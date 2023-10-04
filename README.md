@@ -2,12 +2,14 @@
 
 fork dart analyzer-0.40.7 to fix bug https://github.com/dart-lang/sdk/issues/53681
 
+```yaml
 dependency_overrides:
   analyzer: 
     path: ../analyzer-0.40.7
     #git:
       #url: https://github.com/insinfo/analyzer-0.40.7.git
       #ref: main # branch name    
+```
 
 This package provides a library that performs static analysis
 of Dart code. It is useful for tool integration and embedding.
